@@ -12,3 +12,11 @@
   language: system
   types: [rust]
   pass_filenames: false
+- id: rust-lint
+  name: rust lint
+  description: Lint Rust files using clippy
+  entry: cargo clippy
+  language: system
+  args: ["--", "-D", "warnings"]
+  types: [rust]
+  pass_filenames: false
