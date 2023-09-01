@@ -1,0 +1,7 @@
+- id: rust-format
+  name: rust format
+  description: Format Rust files with cargo fmt.
+  entry: cargo fmt
+  language: system
+  types: [rust]
+  args: ["--"]
