@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "PROJECT_NAME"
-version = "0.0.0"
-description = "DESCRIPTION"
-authors = ["Your Name <you@example.com>"]
-license = "Proprietary"
+authors = ["49175856+Business-Wizard@users.noreply.github.com"]
+name = "clean-code-rust"
+version = "0.1.0"
+description = "Provide pre-commit hooks for Rust"
+license = "GPL-3.0-only"
 readme = "README.md"
 
 [tool.poetry.dependencies]
