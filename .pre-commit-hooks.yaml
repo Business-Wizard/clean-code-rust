@@ -5,3 +5,10 @@
   language: system
   types: [rust]
   args: ["--"]
+- id: rust-check
+  name: rust check
+  description: Check Rust package for errors.
+  entry: cargo check
+  language: system
+  types: [rust]
+  pass_filenames: false
